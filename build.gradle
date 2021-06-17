@@ -1,4 +1,8 @@
-// Top-level build file where you can add configuration options common to all sub-projects/modules.
+ext {
+    defaultMinSdkVersion = 24
+    defaultMinSdkVersion1 = 26
+    defaultMinSdkVersion2 = 24
+}// Top-level build file where you can add configuration options common to all sub-projects/modules.
 buildscript {
     repositories {
         google()
